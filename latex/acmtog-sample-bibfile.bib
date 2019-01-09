@@ -1,0 +1,483 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmtog-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@article{SVD,
+  title={Exploiting linear structure within convolutional networks for efficient evaluation},
+  author={Denton, Emily and Zaremba, Wojciech and Bruna, Joan and Lecun, Yann and Fergus, Rob},
+  pages={1269-1277},
+  year={2014},
+}
+
+@article{DGC,
+  author    = {Yujun Lin and
+               Song Han and
+               Huizi Mao and
+               Yu Wang and
+               William J. Dally},
+  title     = {Deep Gradient Compression: Reducing the Communication Bandwidth for
+               Distributed Training},
+  journal   = {CoRR},
+  volume    = {abs/1712.01887},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1712.01887},
+  archivePrefix = {arXiv},
+  eprint    = {1712.01887},
+  timestamp = {Mon, 13 Aug 2018 16:46:59 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1712-01887},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{hansongnips15,
+  author    = {Song Han and
+               Jeff Pool and
+               John Tran and
+               William J. Dally},
+  title     = {Learning both Weights and Connections for Efficient Neural Network},
+  booktitle = {Advances in Neural Information Processing Systems 28: Annual Conference
+               on Neural Information Processing Systems 2015, December 7-12, 2015,
+               Montreal, Quebec, Canada},
+  pages     = {1135--1143},
+  year      = {2015},
+  crossref  = {DBLP:conf/nips/2015},
+  url       = {http://papers.nips.cc/paper/5784-learning-both-weights-and-connections-for-efficient-neural-network},
+  timestamp = {Fri, 08 Apr 2016 19:32:52 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/nips/HanPTD15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/nips/2015,
+  title     = {Advances in Neural Information Processing Systems 28: Annual Conference
+               on Neural Information Processing Systems 2015, December 7-12, 2015,
+               Montreal, Quebec, Canada},
+  year      = {2015},
+  url       = {http://papers.nips.cc/book/advances-in-neural-information-processing-systems-28-2015},
+  timestamp = {Fri, 08 Apr 2016 19:32:52 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/nips/2015},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{hansongICLR2016,
+  author    = {Song Han and
+               Huizi Mao and
+               William J. Dally},
+  title     = {Deep Compression: Compressing Deep Neural Network with Pruning, Trained
+               Quantization and Huffman Coding},
+  journal   = {CoRR},
+  volume    = {abs/1510.00149},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1510.00149},
+  archivePrefix = {arXiv},
+  eprint    = {1510.00149},
+  timestamp = {Mon, 13 Aug 2018 16:48:14 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/HanMD15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{pruneverydeep,
+author = {He, Yihui and Zhang, Xiangyu and Sun, Jian},
+title = {Channel Pruning for Accelerating Very Deep Neural Networks},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+}
+
+@InProceedings{networkslimming,
+author = {Liu, Zhuang and Li, Jianguo and Shen, Zhiqiang and Huang, Gao and Yan, Shoumeng and Zhang, Changshui},
+title = {Learning Efficient Convolutional Networks Through Network Slimming},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+}
+
+@inproceedings{yoonicml17,
+  author    = {Jaehong Yoon and
+               Sung Ju Hwang},
+  title     = {Combined Group and Exclusive Sparsity for Deep Neural Networks},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning,
+               {ICML} 2017, Sydney, NSW, Australia, 6-11 August 2017},
+  pages     = {3958--3966},
+  year      = {2017},
+  crossref  = {DBLP:conf/icml/2017},
+  url       = {http://proceedings.mlr.press/v70/yoon17a.html},
+  timestamp = {Wed, 16 Aug 2017 11:08:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icml/YoonH17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/icml/2017,
+  editor    = {Doina Precup and
+               Yee Whye Teh},
+  title     = {Proceedings of the 34th International Conference on Machine Learning,
+               {ICML} 2017, Sydney, NSW, Australia, 6-11 August 2017},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {70},
+  publisher = {{PMLR}},
+  year      = {2017},
+  url       = {http://jmlr.org/proceedings/papers/v70/},
+  timestamp = {Wed, 16 Aug 2017 11:08:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icml/2017},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{meprop,
+  author    = {Xu Sun and
+               Xuancheng Ren and
+               Shuming Ma and
+               Houfeng Wang},
+  title     = {meProp: Sparsified Back Propagation for Accelerated Deep Learning
+               with Reduced Overfitting},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning,
+               {ICML} 2017, Sydney, NSW, Australia, 6-11 August 2017},
+  pages     = {3299--3308},
+  year      = {2017},
+  crossref  = {DBLP:conf/icml/2017},
+  url       = {http://proceedings.mlr.press/v70/sun17c.html},
+  timestamp = {Wed, 16 Aug 2017 11:08:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icml/SunRMW17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{mobilenet,
+  author    = {Andrew G. Howard and
+               Menglong Zhu and
+               Bo Chen and
+               Dmitry Kalenichenko and
+               Weijun Wang and
+               Tobias Weyand and
+               Marco Andreetto and
+               Hartwig Adam},
+  title     = {MobileNets: Efficient Convolutional Neural Networks for Mobile Vision
+               Applications},
+  journal   = {CoRR},
+  volume    = {abs/1704.04861},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1704.04861},
+  archivePrefix = {arXiv},
+  eprint    = {1704.04861},
+  timestamp = {Mon, 13 Aug 2018 16:46:35 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/HowardZCKWWAA17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{mobilenetv2,
+author = {Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh},
+title = {MobileNetV2: Inverted Residuals and Linear Bottlenecks},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}
+@InProceedings{DML,
+author = {Zhang, Ying and Xiang, Tao and Hospedales, Timothy M. and Lu, Huchuan},
+title = {Deep Mutual Learning},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}
+
+@article{distillation,
+  author    = {Geoffrey E. Hinton and
+               Oriol Vinyals and
+               Jeffrey Dean},
+  title     = {Distilling the Knowledge in a Neural Network},
+  journal   = {CoRR},
+  volume    = {abs/1503.02531},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1503.02531},
+  archivePrefix = {arXiv},
+  eprint    = {1503.02531},
+  timestamp = {Mon, 13 Aug 2018 16:48:36 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/HintonVD15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{amc,
+  title={AMC: AutoML for Model Compression and Acceleration on Mobile Devices},
+  author={He, Yihui and Lin, Ji and Liu, Zhijian and Wang, Hanrui and Li, Li-Jia and Han, Song},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2018}
+}
+
+@inproceedings{GNAS,
+  author    = {Siyu Huang and
+               Xi Li and
+               Zhiqi Cheng and
+               Zhongfei Zhang and
+               Alexander G. Hauptmann},
+  title     = {{GNAS:} {A} Greedy Neural Architecture Search Method for Multi-Attribute
+               Learning},
+  booktitle = {2018 {ACM} Multimedia Conference on Multimedia Conference, {MM} 2018,
+               Seoul, Republic of Korea, October 22-26, 2018},
+  pages     = {2049--2057},
+  year      = {2018},
+}
+
+@inproceedings{caihan,
+  author    = {Han Cai and
+               Jiacheng Yang and
+               Weinan Zhang and
+               Song Han and
+               Yong Yu},
+  title     = {Path-Level Network Transformation for Efficient Architecture Search},
+  booktitle = {Proceedings of the 35th International Conference on Machine Learning,
+               {ICML} 2018, Stockholmsm{\"{a}}ssan, Stockholm, Sweden, July
+               10-15, 2018},
+  pages     = {677--686},
+  year      = {2018},
+}
+
+@article{FFT,
+  author    = {Micha{\"{e}}l Mathieu and
+               Mikael Henaff and
+               Yann LeCun},
+  title     = {Fast Training of Convolutional Networks through FFTs},
+  journal   = {arXiv},
+  year      = {2013},
+}
+
+@inproceedings{winograd,
+  author    = {Ivan W. Selesnick and
+               C. Sidney Burrus},
+  title     = {Extending Winograd's Small Convolution Algorithm to Longer Lengths},
+  booktitle = {1994 {IEEE} International Symposium on Circuits and Systems, {ISCAS}
+               1994, London, England, UK, May 30 - June 2, 1994},
+  pages     = {449--452},
+  year      = {1994},
+}
+
+@inproceedings{EIE,
+  author    = {Song Han and
+               Xingyu Liu and
+               Huizi Mao and
+               Jing Pu and
+               Ardavan Pedram and
+               Mark Horowitz and
+               Bill Dally},
+  title     = {Deep compression and {EIE:} Efficient inference engine on compressed
+               deep neural network},
+  booktitle = {2016 {IEEE} Hot Chips 28 Symposium (HCS), Cupertino, CA, USA, August
+               21-23, 2016},
+  pages     = {1--6},
+  year      = {2016},
+}
+
+@inproceedings{CIFAR,
+  author    = {Alex Krizhevsky and Geoffery Hinton},
+  title     = {Learning multiple layers of features from tiny images.},
+  booktitle = {Tech Report},
+  year      = {2009},
+}

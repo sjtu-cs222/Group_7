@@ -1,2 +1,2 @@
 # Group_7
-Hao-Tian Tang
+CS222 Algorithm Design and Analysis Course Project

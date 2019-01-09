@@ -1,0 +1,164 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{Cai, Yang, Zhang, Han, and Yu}{Cai
+  et~al\mbox{.}}{2018}]%
+        {caihan}
+{Han Cai}, {Jiacheng Yang}, {Weinan Zhang}, {Song Han}, {and} {Yong Yu}. 2018.
+\newblock \showarticletitle{Path-Level Network Transformation for Efficient
+  Architecture Search}. In {\em Proceedings of the 35th International
+  Conference on Machine Learning, {ICML} 2018, Stockholmsm{\"{a}}ssan,
+  Stockholm, Sweden, July 10-15, 2018}. 677--686.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Denton, Zaremba, Bruna, Lecun, and
+  Fergus}{Denton et~al\mbox{.}}{2014}]%
+        {SVD}
+{Emily Denton}, {Wojciech Zaremba}, {Joan Bruna}, {Yann Lecun}, {and} {Rob
+  Fergus}. 2014.
+\newblock \showarticletitle{Exploiting linear structure within convolutional
+  networks for efficient evaluation}.
+\newblock  (2014), 1269--1277.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Han, Liu, Mao, Pu, Pedram, Horowitz, and
+  Dally}{Han et~al\mbox{.}}{2016}]%
+        {EIE}
+{Song Han}, {Xingyu Liu}, {Huizi Mao}, {Jing Pu}, {Ardavan Pedram}, {Mark
+  Horowitz}, {and} {Bill Dally}. 2016.
+\newblock \showarticletitle{Deep compression and {EIE:} Efficient inference
+  engine on compressed deep neural network}. In {\em 2016 {IEEE} Hot Chips 28
+  Symposium (HCS), Cupertino, CA, USA, August 21-23, 2016}. 1--6.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Han, Mao, and Dally}{Han
+  et~al\mbox{.}}{2015a}]%
+        {hansongICLR2016}
+{Song Han}, {Huizi Mao}, {and} {William~J. Dally}. 2015a.
+\newblock \showarticletitle{Deep Compression: Compressing Deep Neural Network
+  with Pruning, Trained Quantization and Huffman Coding}.
+\newblock {\em CoRR\/}  {abs/1510.00149} (2015).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1510.00149}}
+
+
+\bibitem[\protect\citeauthoryear{Han, Pool, Tran, and Dally}{Han
+  et~al\mbox{.}}{2015b}]%
+        {hansongnips15}
+{Song Han}, {Jeff Pool}, {John Tran}, {and} {William~J. Dally}. 2015b.
+\newblock \showarticletitle{Learning both Weights and Connections for Efficient
+  Neural Network}. In {\em Advances in Neural Information Processing Systems
+  28: Annual Conference on Neural Information Processing Systems 2015, December
+  7-12, 2015, Montreal, Quebec, Canada}. 1135--1143.
+\newblock
+\showURL{%
+\url{http://papers.nips.cc/paper/5784-learning-both-weights-and-connections-for-efficient-neural-network}}
+
+
+\bibitem[\protect\citeauthoryear{He, Lin, Liu, Wang, Li, and Han}{He
+  et~al\mbox{.}}{2018}]%
+        {amc}
+{Yihui He}, {Ji Lin}, {Zhijian Liu}, {Hanrui Wang}, {Li-Jia Li}, {and} {Song
+  Han}. 2018.
+\newblock \showarticletitle{AMC: AutoML for Model Compression and Acceleration
+  on Mobile Devices}. In {\em European Conference on Computer Vision (ECCV)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{He, Zhang, and Sun}{He et~al\mbox{.}}{2017}]%
+        {pruneverydeep}
+{Yihui He}, {Xiangyu Zhang}, {and} {Jian Sun}. 2017.
+\newblock \showarticletitle{Channel Pruning for Accelerating Very Deep Neural
+  Networks}. In {\em The IEEE International Conference on Computer Vision
+  (ICCV)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huang, Li, Cheng, Zhang, and Hauptmann}{Huang
+  et~al\mbox{.}}{2018}]%
+        {GNAS}
+{Siyu Huang}, {Xi Li}, {Zhiqi Cheng}, {Zhongfei Zhang}, {and} {Alexander~G.
+  Hauptmann}. 2018.
+\newblock \showarticletitle{{GNAS:} {A} Greedy Neural Architecture Search
+  Method for Multi-Attribute Learning}. In {\em 2018 {ACM} Multimedia
+  Conference on Multimedia Conference, {MM} 2018, Seoul, Republic of Korea,
+  October 22-26, 2018}. 2049--2057.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky and Hinton}{Krizhevsky and
+  Hinton}{2009}]%
+        {CIFAR}
+{Alex Krizhevsky} {and} {Geoffery Hinton}. 2009.
+\newblock \showarticletitle{Learning multiple layers of features from tiny
+  images.}. In {\em Tech Report}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Li, Shen, Huang, Yan, and Zhang}{Liu
+  et~al\mbox{.}}{2017}]%
+        {networkslimming}
+{Zhuang Liu}, {Jianguo Li}, {Zhiqiang Shen}, {Gao Huang}, {Shoumeng Yan}, {and}
+  {Changshui Zhang}. 2017.
+\newblock \showarticletitle{Learning Efficient Convolutional Networks Through
+  Network Slimming}. In {\em The IEEE International Conference on Computer
+  Vision (ICCV)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mathieu, Henaff, and LeCun}{Mathieu
+  et~al\mbox{.}}{2013}]%
+        {FFT}
+{Micha{\"{e}}l Mathieu}, {Mikael Henaff}, {and} {Yann LeCun}. 2013.
+\newblock \showarticletitle{Fast Training of Convolutional Networks through
+  FFTs}.
+\newblock {\em arXiv\/} (2013).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Selesnick and Burrus}{Selesnick and
+  Burrus}{1994}]%
+        {winograd}
+{Ivan~W. Selesnick} {and} {C.~Sidney Burrus}. 1994.
+\newblock \showarticletitle{Extending Winograd's Small Convolution Algorithm to
+  Longer Lengths}. In {\em 1994 {IEEE} International Symposium on Circuits and
+  Systems, {ISCAS} 1994, London, England, UK, May 30 - June 2, 1994}. 449--452.
+\newblock
+
+
+\end{thebibliography}

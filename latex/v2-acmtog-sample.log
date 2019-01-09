@@ -1,0 +1,424 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.4)  9 JAN 2019 01:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**v2-acmtog-sample.tex
+(./v2-acmtog-sample.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./acmtog.cls
+Document Class: acmtog 2012/03/07
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (./url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\trimheight=\dimen102
+\trimwidth=\dimen103
+\typeheight=\dimen104
+\typewidth=\dimen105
+\normaltextheight=\dimen106
+\blindfoliodrop=\dimen107
+\tempbox=\box26
+\tempdimen=\dimen108
+\normaltextheight=\dimen109
+\c@secnumbookdepth=\count80
+\c@theorem=\count81
+\c@strategy=\count82
+\c@property=\count83
+\c@proposition=\count84
+\c@exam=\count85
+\c@part=\count86
+\c@section=\count87
+\c@subsection=\count88
+\c@subsubsection=\count89
+\c@paragraph=\count90
+\c@figure=\count91
+\c@table=\count92
+\belowcaptionskip=\skip41
+\tbbox=\box27
+\tabledim=\dimen110
+\@narrowfig=\dimen111
+\@nfigbox=\box28
+\@nfcapbox=\box29
+\@abstract=\box30
+\@terms=\box31
+\@keywords=\box32
+\bibindent=\dimen112
+LaTeX Info: Redefining \cal on input line 1053.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+\symboldlasy=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks15
+\float@box=\box33
+\@float@everytoks=\toks16
+\@floatcapt=\box34
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+
+
+Package subfigure Warning: Your document class has a bad definition
+ of \endfigure, most likely
+ \let\endfigure=\end@float
+ which has now been changed to
+ \def\endfigure{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endfigure.
+ Please complain to your document class author.
+
+
+Package subfigure Warning: Your document class has a bad definition
+ of \endtable, most likely
+ \let\endtable=\end@float
+ which has now been changed to
+ \def\endtable{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endtable.
+ Please complain to your document class author.
+
+\subfigtopskip=\skip42
+\subfigcapskip=\skip43
+\subfigcaptopadj=\dimen115
+\subfigbottomskip=\skip44
+\subfigcapmargin=\dimen116
+\subfiglabelskip=\skip45
+\c@subfigure=\count94
+\c@lofdepth=\count95
+\c@subtable=\count96
+\c@lotdepth=\count97
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip46
+\subfig@bottom=\skip47
+)
+(./algorithm2e.sty
+Package: algorithm2e 2008/00/00 v3.10 algorithms environments
+\c@AlgoLine=\count98
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 4.01 -- december 14 2009 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip48
+\skiplinenumber=\skip49
+\skiprule=\skip50
+\skiphlne=\skip51
+\skiptext=\skip52
+\skiplength=\skip53
+\algomargin=\skip54
+\skipalgocfslide=\skip55
+\algowidth=\dimen117
+\inoutsize=\dimen118
+\inoutline=\dimen119
+\interspacetitleruled=\dimen120
+\interspacealgoruled=\dimen121
+\interspacetitleboxruled=\dimen122
+\algocf@inoutbox=\box35
+\algocf@inputbox=\box36
+\AlCapSkip=\skip56
+\AlCapHSkip=\skip57
+\algocf@nlbox=\box37
+\algocf@hangingbox=\box38
+\algocf@capbox=\box39
+\algoheightruledefault=\skip58
+\algoheightrule=\skip59
+\algotitleheightruledefault=\skip60
+\algotitleheightrule=\skip61
+\c@algocfline=\count99
+\c@algocfproc=\count100
+\c@algocf=\count101
+\algocf@algoframe=\box40
+\algocf@algobox=\box41
+) (./v2-acmtog-sample.aux)
+\openout1 = `v2-acmtog-sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\bibhang=\skip62
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen123
+\scratchbox=\box42
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen124
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 55.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 55.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+<assets/conv.png, id=1, 820.06375pt x 278.03876pt>
+File: assets/conv.png Graphic file (type png)
+<use assets/conv.png>
+Package pdftex.def Info: assets/conv.png  used on input line 77.
+(pdftex.def)             Requested size: 240.0pt x 81.37161pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 78.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 78.
+<assets/tree-network.png, id=3, 184.69pt x 242.9075pt>
+File: assets/tree-network.png Graphic file (type png)
+<use assets/tree-network.png>
+Package pdftex.def Info: assets/tree-network.png  used on input line 84.
+(pdftex.def)             Requested size: 72.00073pt x 94.69647pt.
+<assets/pseduo-tree.png, id=4, 193.72375pt x 264.99pt>
+File: assets/pseduo-tree.png Graphic file (type png)
+<use assets/pseduo-tree.png>
+Package pdftex.def Info: assets/pseduo-tree.png  used on input line 85.
+(pdftex.def)             Requested size: 72.00073pt x 98.48953pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 90.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 90.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+<special> papersize=8.5in,11in
+
+
+ <./assets/conv.png> <./assets/tree-network.png> <./assets/pseduo-tree.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 141.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 141.
+
+Overfull \vbox (0.50241pt too high) has occurred while \output is active []
+
+
+[2]
+Underfull \hbox (badness 1048) in paragraph at lines 153--154
+\OT1/ptm/m/n/9 versely, from $\OML/cmm/m/it/9 M[]; M[]; :::$ \OT1/ptm/m/n/9 to 
+$\OML/cmm/m/it/9 M[]$\OT1/ptm/m/n/9 . Fur-ther-more, we as-sure
+ []
+
+<assets/method1.png, id=25, 322.20375pt x 294.09875pt>
+File: assets/method1.png Graphic file (type png)
+<use assets/method1.png>
+Package pdftex.def Info: assets/method1.png  used on input line 157.
+(pdftex.def)             Requested size: 120.0pt x 109.53284pt.
+<assets/decendent.png, id=26, 377.41pt x 272.01625pt>
+File: assets/decendent.png Graphic file (type png)
+<use assets/decendent.png>
+Package pdftex.def Info: assets/decendent.png  used on input line 166.
+(pdftex.def)             Requested size: 120.0pt x 86.48663pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+
+Underfull \hbox (badness 6428) in paragraph at lines 171--172
+\OT1/ptm/m/n/9 We have de-cided to de-ter-mine masks $\OML/cmm/m/it/9 M[]$ \OT1
+/ptm/m/n/9 in the or-der
+ []
+
+<assets/method2.png, id=27, 141.52875pt x 247.92625pt>
+File: assets/method2.png Graphic file (type png)
+<use assets/method2.png>
+Package pdftex.def Info: assets/method2.png  used on input line 177.
+(pdftex.def)             Requested size: 72.00073pt x 126.1305pt.
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [3 <./assets/method1.png> <./assets/decendent.png>]
+Overfull \vbox (0.50241pt too high) has occurred while \output is active []
+
+
+[4 <./assets/method2.png>]
+<assets/compression.png, id=39, 379.4175pt x 252.945pt>
+File: assets/compression.png Graphic file (type png)
+<use assets/compression.png>
+Package pdftex.def Info: assets/compression.png  used on input line 236.
+(pdftex.def)             Requested size: 240.0pt x 160.00075pt.
+ (./v2-acmtog-sample.bbl
+Overfull \hbox (8.2819pt too wide) in paragraph at lines 83--91
+\OT1/ptm/m/n/8 5784-[]learning-[]both-[]weights-[]and-[]connections-[]for-[]e^^
+Ncient-[]neural-[]network$ 
+ []
+
+)
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [5 <./assets/compression.png>] (./v2-acmtog-sample.aux) ) 
+Here is how much of TeX's memory you used:
+ 3434 strings out of 492649
+ 46342 string characters out of 6129623
+ 142262 words of memory out of 5000000
+ 7241 multiletter control sequences out of 15000+600000
+ 39377 words of font info for 94 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,13n,25p,1264b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2
+018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
+helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on v2-acmtog-sample.pdf (5 pages, 245263 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
